@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>සිංහල අකුරු හා ටෙෙපොග්‍රැෆි නිර්මාණකරණ තරග අවකාශය</title>
+<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600,800&amp;subset=sinhala" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="css/main.css">
+{% include head.html %}
+    <script>
+var colours = [
+  ['#FC354C', '#6E48AA'],
+  ['#FDFC47', '#24FE41']
+];
+
+function hex2rgb(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return 'rgb(' + parseInt(result[1], 16) + ',' + parseInt(result[2], 16) + ',' + parseInt(result[3], 16) + ')';
+}
+
+function rgb2hex(rgb) {
+  rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+
+  function hex(x) {
+    return ("0" + parseInt(x).toString(16)).slice(-2);
+  }
+  return "#" + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+}
+
+function rgbArray(rgb) {
+  return rgb.split('(')[1].split(')')[0].split(',');
+}
+
+//
+// finds transition colour based on mouse position
+function transitionColour(from, to, width, x) {
+
+  var m = x / width;
+  var r, g, b;
+
+  r = Math.ceil(from[0] * m + to[0] * (1 - m));
+  g = Math.ceil(from[1] * m + to[1] * (1 - m));
+  b = Math.ceil(from[2] * m + to[2] * (1 - m));
+
+  return rgb2hex('rgb(' + r + ', ' + g + ', ' + b + ')');
+
+}
+
+$(document).on("mousemove", function(e) {
+
+  var xPos = e.pageX,
+    width = window.innerWidth,
+
+    //
+    // convert hex to rgb
+    topLeft = hex2rgb(colours[0][0]),
+    topRight = hex2rgb(colours[1][0]),
+
+    bottomLeft = hex2rgb(colours[0][1]),
+    bottomRight = hex2rgb(colours[1][1]);
+
+  //
+  // get transition colour
+  var bottomTransition = transitionColour(rgbArray(bottomRight), rgbArray(bottomLeft), width, xPos);
+  var topTransition = transitionColour(rgbArray(topRight), rgbArray(topLeft), width, xPos);
+
+  $('body').css({
+    'background': 'linear-gradient(' + topTransition + ', ' + bottomTransition + ')'
+  });
+
+});
+    </script>
+</head>
+<body>
+  <div class="container">
+<div class="gradient"></div>
+      <h1><img src="images/typography-competetion.svg">
+               
+               </h1>
+    {{ content }}
+  </div>
+{% include scripts.html %}
+</body>
+</html>
