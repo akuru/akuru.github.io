@@ -50,6 +50,7 @@ hello@akurucollective.com වෙබ් ලිපිනයට උඩුගත ක
 ## වැඩි විස්තර සඳහා
 
 - [සිංහල යුනිකෝඩ් සමූහය - Sinhala Unicode Group](https://groups.google.com/forum/#!forum/sinhala-unicode) 
+- [hello@akurucollective.com](<a href="mailto:hello@akurucollective.com")
 
 ## නිබඳව ඇසෙන පැණ
 
@@ -104,7 +105,7 @@ hello@akurucollective.com වෙබ් ලිපිනයට උඩුගත ක
 
 # අකුරු සාමුහිකය
 
-‘අකුරැ’ යනු අක්ෂර පිළිබඳව උනන්දුවක් දක්වන විවිධ ක්ෂේත්රයන් නියෝජනය කරන පිරිසකගෙන් සැදුම්ලත්  ශ්රී ලාංකික සාමූහිකයකි.
+‘අකුරු’ යනු අක්ෂර පිළිබඳව උනන්දුවක් දක්වන විවිධ ක්ෂේත්රයන් නියෝජනය කරන පිරිසකගෙන් සැදුම්ලත්  ශ්රී ලාංකික සාමූහිකයකි.
 
 # ෴෴
 
