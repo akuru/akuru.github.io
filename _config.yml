@@ -1,7 +1,8 @@
 # Site settings
-title: Solo, a Jekyll Theme
-tag_text: Solo
-description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
+title: සිංහල අකුරු හා ටෙෙපොග්‍රැෆි නිර්මාණකරණ තරග අවකාශය
+tag_text: සිංහල අකුරු හා ටෙෙපොග්‍රැෆි නිර්මාණකරණ තරග අවකාශය
+description: සිංහල අකුරු හා ටෙෙපොග්‍රැෆි නිර්මාණකරණ තරග අවකාශය
+
 
 # Build settings
 markdown: kramdown
