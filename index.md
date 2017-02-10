@@ -15,6 +15,13 @@ layout: default
 
 Typoday - 2107, පෙබරවාරි 23, 24 සහ 25 දිනයන් හි බස්නාහිර පළාත් සෞන්දර්ය නිකේතනයේ පැවැත්වෙන ජාත්‍යන්තර සහභාගීත්වය අැති වැඩසටහනකි. එය අකුරු පිළිබඳ උනන්දුව දක්වන සැමටත් විශේෂයෙන් සිංහල අකුරු එදිනෙදා නිර්මාණකරණය සඳහා භාවිතා කරන නිර්මාණවේදීන් සියල්ලන්ටමත් නව දැනුම, නව නිර්මාණ අවස්ථා සහ සහයෝගීත්වය උදාකරන එළඹුමක් ද වේ.
 
+<div style="float:left;" class="fb-share-button" data-href="http://akurucollective.com/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fakurucollective.com%2F&amp;src=sdkpreparse">Share</a></div>
+
+<a  class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=දැන්ම ලියාපදිචි වන්න෴සිංහල අකුරු හා ටෙෙපොග්‍රැෆි නිර්මාණකරණ තරග අවකාශය෴෴෴ http://akurucollective.com/"
+  >
+Tweet</a>
+
 
 ## තරග විස්තර 
 
@@ -81,7 +88,21 @@ hello@akurucollective.com වෙබ් ලිපිනයට උඩුගත ක
  
 ## ඔබට අවශ්‍ය සම්පත් ලබාගත හැකි තැන්
 
+### සිංහල යුනිකේත ෆොන්ට එකතුව
+
+සිංහල යුනිකේත සම්මතයන්ට අනුකූලව සකස් කල ෆොන්ට පහළ දැක්වෙන ස්ථාන වලින් භාගත කර හැකිය. මෙම පිටුවෙහි දැක්වෙන ෆොන්ට වල අයිතිය ඒ ඒ පාර්ශවයන් සතු වෙයි.
+
+- [ICTA සිංහල ෆොන්ට් එකතුව ](https://www.icta.lk/fonts/)
+- [mooniak සිංහල හා දෙමල ෆොන්ට් එකතුව](https://drive.google.com/drive/folders/0B-5mpXa8HrFVUjVoc1FBOTZoSDQ?usp=sharing)
+- [Google නෝටෝ සෑන්ස් සිංහල ](https://www.google.com/get/noto/#sans-sinh)
+- ඉස්කෝල පොත සහ නිර්මල: Windows මෙහෙයුම් පද්ධතිය සමග නොමිලේ ලැබේ 
+- සිංහල සංගම් සහ සිංහල MN : macOS මෙහෙයුම් පද්ධතිය සමග නොමිලේ ලැබේ
+
+මීට අමතරව වෙනත්  ඕනෑම සිංහල යුනිකේත ෆොන්ට්යක් මෙම තරගය සඳහා භාවිත කල හැකිය.
+මෙය තෝරාගැනීමකින් තොරව සකස්කළ ලැයිස්තුවකි, වෙනත් ෆොන්ට මෙම ලයිස්තුවට එක කිරීමට අපට  ඊ මේල් පනිවිඩයකින් දන්වන්න.
+
 ### නිදහස් මෘදුකාංග භාගත කිරීම සහ අදාල සබැඳි
+
 
 #### ගිම්ප් GIMP
 
@@ -95,20 +116,16 @@ hello@akurucollective.com වෙබ් ලිපිනයට උඩුගත ක
 
 ස්ක්‍රිබස්; වින්ඩෝස්, ඇපල්, ලිනක්ස් සහ තවත් මෙහෙයුුම් පද්ධති ගණනාවකටම සහයෝගය දක්වන පිටු සැකසුම් නිර්මාණය සඳහා සැකසූ සම්පූර්ණයෙන්ම නිදහස් මෘදුකාංගයකි. [Scribus](https://www.scribus.net/)
 
-## සිංහල යුනිකේත ක්‍රමයට සහයෝගය දක්වන ෆොන්ට එකතුව
-
-### ටෙම්ප්ලේට සහ සාම්පල 
-
-අදාල නිදහස් මෘදුකාංග සඳහා සහයෝගය දක්වන අන්තර්ජාල සහයෝගීතාවයන්/ ෆෝරම
-
-- ගිම්ප් (GIMP)
-- ඉන්ක්ස්කේප් (Inkscape)
-- ස්ක්‍රිබස් (Scribus)
 
 
 [දැන්ම ලියාපදිචි වන්න](https://docs.google.com/forms/d/e/1FAIpQLScEzvBfXEU_DTotQSw_sGWnYkLw88N9gS0hAIa4sBtAaqal7Q/viewform){:.register}
 
+<div style="float:left;" class="fb-share-button" data-href="http://akurucollective.com/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fakurucollective.com%2F&amp;src=sdkpreparse">Share</a></div>
 
+<a  class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=දැන්ම ලියාපදිචි වන්න෴සිංහල අකුරු හා ටෙෙපොග්‍රැෆි නිර්මාණකරණ තරග අවකාශය෴෴෴ http://akurucollective.com/"
+  >
+Tweet</a>
 
 
 # ෴෴෴෴෴෴ 
@@ -140,11 +157,18 @@ hello@akurucollective.com වෙබ් ලිපිනයට උඩුගත ක
 
 ----
 
+
+<div class="fb-like" data-href="https://www.facebook.com/akurucollective/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
+
 #### අකුරු සාමූහිකය 
 
 අකුරු යනු අක්ෂර පිළිබඳව උනන්දුවක් දක්වන විවිධ ක්ෂේත්‍ර  නියෝජනය කරන පිරිසකගෙන් සැදුම්ලත්  ශ්‍රී  ලාංකික සාමූහිකයකි.  
 සම්බන්ධවන්න [hello@akurucollective.com](<a href="mailto:hello@akurucollective.com")
 
+
+
+<br>
 
 
  © 2017 Akuru Collective අකුරු සාමූහිකය  
