@@ -17,6 +17,8 @@ body {
   background-image: -webkit-linear-gradient(#FC354C, #6E48AA);
   background-image: -webkit-linear-gradient(#FC354C, #6E48AA);
   background-image: linear-gradient(#FC354C, #6E48AA);
+                transition:all 0.3s ease;
+
 }
 
 
@@ -30,9 +32,43 @@ body {
 a {
   color: #000; /* From http://clrs.cc */
   text-decoration: none;
-    font-weight: 800;
+    font-weight: 600;
 background-color:rgba(200, 200, 200, 0.5);
     padding: 0px 5px 0px 5px;
+
+    
+}
+
+.register{
+
+font-size: 50px;
+    margin-top: 40px;
+    font-weight: 800;
+    background-color:rgba(255, 255, 255, 0);
+    color: #000000;
+    padding: 10px 5px 10px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 3px solid;
+    text-align: center;
+    clear: both;
+    display: block;
+    
+    
+}
+.register:hover{
+    background-color:rgba(255, 255, 255, 0.53);
+    color: #000000;
+    padding: 10px 5px 10px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 3px solid;
+    text-align: center;
+    clear: both;
+    display: block;
+
     
 }
 //a {
