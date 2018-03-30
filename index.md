@@ -15,7 +15,7 @@ layout: default
 
 # typography.lk
 
-[Found Letters Lanka](http://found.typography.lk/) | [Ceylon Display](http://display.typography.lk/)
+[Found Letters Lanka](http://found.typography.lk/)  [Ceylon Display](http://display.typography.lk/)
 
 # ෴෴෴෴෴෴ 
 
