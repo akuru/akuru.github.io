@@ -1,0 +1,6 @@
+
+@font-face {
+    font-family:"Abhaya Libre";
+    src:url("AbhayaLibreDev-Regular.woff2") format("woff2"),url("AbhayaLibreDev-Regular.woff") format("woff"),url("AbhayaLibreDev-Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
