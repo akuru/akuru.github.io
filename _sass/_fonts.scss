@@ -1,91 +1,91 @@
 @font-face {
   font-family: 'Noto Sans SemCond ExtBd';
-  src: url('./NotoSans-SemiCondensedExtraBold.ttf') format('opentype');
+  src: url('../fonts/NotoSans-SemiCondensedExtraBold.ttf') format('opentype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Noto Sans Med';
-  src: url('./NotoSans-Medium.ttf') format('opentype');
+  src: url('../fonts/NotoSans-Medium.ttf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Galle';
-  src: url('./Gall.woff2') format('woff2'), url('./Gall.woff') format('woff'),
-    url('./Gall.ttf') format('opentype');
+  src: url('../fonts/fonts/Gall.woff2') format('woff2'), url('.../fonts/fonts/Gall.woff') format('woff'),
+    url('.../fonts/fonts/Gall.ttf') format('opentype');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Noto Sans Tamil UI';
-  src: url('./NotoSansTamilUI-Light.ttf') format('opentype');
+  src: url('../fonts/fonts/NotoSansTamilUI-Light.ttf') format('opentype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Noto Sans';
-  src: url('./NotoSans-Light.woff2') format('woff2'),
-    url('./NotoSans-Light.woff') format('woff'),
-    url('./NotoSans-Light.ttf') format('opentype');
+  src: url('../fonts/NotoSans-Light.woff2') format('woff2'),
+    url('../fonts/NotoSans-Light.woff') format('woff'),
+    url('../fonts/NotoSans-Light.ttf') format('opentype');
   font-style: normal;
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Noto Sans';
-  src: url('./NotoSans-Regular.woff2') format('woff2'),
-    url('./NotoSans-Regular.woff') format('woff'),
-    url('./NotoSans-Regular.ttf') format('opentype');
+  src: url('../fonts/NotoSans-Regular.woff2') format('woff2'),
+    url('../fonts/NotoSans-Regular.woff') format('woff'),
+    url('../fonts/NotoSans-Regular.ttf') format('opentype');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Noto Sans Tamil UI';
-  src: url('./NotoSansTamilUI-Medium.woff2') format('woff2'),
-    url('./NotoSansTamilUI-Medium.woff') format('woff'),
-    url('./NotoSansTamilUI-Medium.ttf') format('opentype');
+  src: url('../fonts/NotoSansTamilUI-Medium.woff2') format('woff2'),
+    url('../fonts/NotoSansTamilUI-Medium.woff') format('woff'),
+    url('../fonts/NotoSansTamilUI-Medium.ttf') format('opentype');
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Noto Sans Sinhala UI';
-  src: url('./NotoSansSinhalaUI-Regular.woff2') format('woff2'),
-    url('./NotoSansSinhalaUI-Regular.woff') format('woff'),
-    url('./NotoSansSinhalaUI-Regular.ttf') format('opentype');
+  src: url('../fonts/NotoSansSinhalaUI-Regular.woff2') format('woff2'),
+    url('../fonts/NotoSansSinhalaUI-Regular.woff') format('woff'),
+    url('../fonts/NotoSansSinhalaUI-Regular.ttf') format('opentype');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Noto Sans ExtraCondensed';
-  src: url('./NotoSans-ExtraCondensedBoldItalic.woff2') format('woff2'),
-    url('./NotoSans-ExtraCondensedBoldItalic.woff') format('woff'),
-    url('./NotoSans-ExtraCondensedBoldItalic.ttf') format('opentype');
+  src: url('../fonts/NotoSans-ExtraCondensedBoldItalic.woff2') format('woff2'),
+    url('../fonts/NotoSans-ExtraCondensedBoldItalic.woff') format('woff'),
+    url('../fonts/NotoSans-ExtraCondensedBoldItalic.ttf') format('opentype');
   font-style: italic;
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'Noto Sans Sinhala UI Condensed';
-  src: url('./NotoSansSinhalaUI-CondensedMedium.woff2') format('woff2'),
-    url('./NotoSansSinhalaUI-CondensedMedium.woff') format('woff'),
-    url('./NotoSansSinhalaUI-CondensedMedium.ttf') format('opentype');
+  src: url('../fonts/NotoSansSinhalaUI-CondensedMedium.woff2') format('woff2'),
+    url('../fonts/NotoSansSinhalaUI-CondensedMedium.woff') format('woff'),
+    url('../fonts/NotoSansSinhalaUI-CondensedMedium.ttf') format('opentype');
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Noto Sans Tamil Condensed';
-  src: url('./NotoSansTamil-CondensedMedium.woff2') format('woff2'),
-    url('./NotoSansTamil-CondensedMedium.woff') format('woff'),
-    url('./NotoSansTamil-CondensedMedium.ttf') format('opentype');
+  src: url('../fonts/NotoSansTamil-CondensedMedium.woff2') format('woff2'),
+    url('../fonts/NotoSansTamil-CondensedMedium.woff') format('woff'),
+    url('../fonts/NotoSansTamil-CondensedMedium.ttf') format('opentype');
   font-style: normal;
   font-weight: 500;
 }

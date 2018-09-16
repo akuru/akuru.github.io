@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"Noto Sans Condensed";
+    src:url("NotoSans-Condensed.woff2") format("woff2"),url("NotoSans-Condensed.woff") format("woff"),url("NotoSans-Condensed.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
