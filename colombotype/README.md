@@ -1,3 +1,0 @@
-# colombotype microsite
-
-WIP
