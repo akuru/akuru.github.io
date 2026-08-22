@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[site.lang] %}
+<section class="hero">
+  <div class="wrap">
+    <h1>{{ site.title }}</h1>
+    <p class="intro">{{ t.intro }}</p>
+  </div>
+</section>
+
+<section class="manifesto">
+  <div class="wrap">
+    <div class="label">{{ t.manifesto_heading }}</div>
+    <blockquote>{{ t.manifesto }}</blockquote>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="section-head">
+    <h2>{{ t.projects_heading }}</h2>
+  </div>
+  {% assign projects = site.projects | sort: 'order' %}
+  <div class="grid">
+    {% for p in projects %}
+    <a class="card" href="{{ p.url | relative_url }}">
+      {% if p.cover %}
+      <div class="thumb"><img src="{{ p.image_base | append: p.cover | relative_url }}" alt="{{ p.title }}" loading="lazy"></div>
+      {% else %}
+      <div class="thumb empty">අ</div>
+      {% endif %}
+      <h3>{{ p.title }}</h3>
+      {% if p.meta %}<div class="meta">{{ p.meta }}</div>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>

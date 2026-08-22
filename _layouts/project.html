@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[site.lang] %}
+<article class="project wrap">
+  <a class="back" href="{{ '/projects/' | relative_url }}">← {{ t.back_to_projects }}</a>
+  <h1>{{ page.title }}</h1>
+  {% if page.meta %}<div class="meta">{{ page.meta }}</div>{% endif %}
+  <div class="body">
+    {{ content }}
+  </div>
+  {% if page.images and page.images.size > 0 %}
+  <div class="gallery">
+    {% for img in page.images %}
+      <img src="{{ page.image_base | append: img | relative_url }}" alt="{{ page.title }}" loading="lazy">
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>

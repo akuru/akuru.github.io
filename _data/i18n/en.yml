@@ -1,0 +1,14 @@
+# English UI strings. Copy this file to si.yml and ta.yml and translate
+# to make the site trilingual.
+nav_home: Home
+nav_projects: Projects
+nav_about: About
+projects_heading: Projects
+manifesto_heading: Manifesto
+manifesto: To understand letters, share them, and use them in ways that connect communities and cultures.
+intro: >
+  Akuru Collective is a type community in Sri Lanka. The word
+  <em>Akuru</em> means "letters", and the collective brings together creators,
+  researchers and the public around type research, modern innovation and the
+  preservation of historical scripts.
+back_to_projects: All projects

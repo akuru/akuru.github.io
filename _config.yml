@@ -1,12 +1,32 @@
 # Site settings
-name: අකුරු සාමූහිකය 
-title: අකුරු සාමූහිකය 
-tag_text: අකුරු සාමූහිකය 
-description: අකුරු සාමූහිකය 
+name: Akuru Collective
+title: Akuru Collective
+tag_text: Akuru Collective
+description: A type community in Sri Lanka. Understanding letters, sharing them, and using them to connect communities and cultures.
 url: http://akurucollective.com/
+
+# Internationalisation (trilingual-ready)
+# Default language is English. Sinhala (si) and Tamil (ta) can be added later
+# by providing _data/i18n/si.yml and _data/i18n/ta.yml and per-page translations.
+lang: en
+languages: ["en"]            # add "si", "ta" when translations are ready
+default_lang: en
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
 
 # Build settings
 markdown: kramdown
-exclude: ["README.md"]
+exclude: ["README.md", "Akuru Website content", "about-draft.md", "archive", "Gemfile", "Gemfile.lock"]
 sass:
   style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project

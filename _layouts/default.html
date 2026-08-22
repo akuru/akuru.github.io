@@ -1,22 +1,45 @@
 <!DOCTYPE html>
-<html>
+{% assign t = site.data.i18n[site.lang] %}
+<html lang="{{ site.lang }}">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>typography.lk {{ site.title }}</title>
-  <link rel="me" href="https://twitter.com/twitterdev">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="../assets/css/main.css">
-  <link rel="stylesheet" href="../assets/fonts/fonts.css"> {% include head.html %}
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <div class="container">
-    <h1>
-        <img src="/assets/images/akuru-logo_triling.svg"
-               </h1> {{ content }}
-  </div>
-  {% include scripts.html %}
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>{{ t.nav_home }}</a>
+        <a href="{{ '/projects/' | relative_url }}"{% if page.url contains 'projects' %} class="active"{% endif %}>{{ t.nav_projects }}</a>
+        {% comment %} Language switcher appears automatically once more languages are added in _config.yml {% endcomment %}
+        {% if site.languages.size > 1 %}
+        <span class="lang">
+          {% for l in site.languages %}<a href="#">{{ l | upcase }}</a>{% unless forloop.last %} / {% endunless %}{% endfor %}
+        </span>
+        {% endif %}
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      Akuru Collective · A type community in Sri Lanka ·
+      <a href="https://www.instagram.com/30daysakuru/">Instagram</a> ·
+      <a href="https://www.facebook.com/AkuruCollective/">Facebook</a>
+    </div>
+  </footer>
 </body>
 </html>

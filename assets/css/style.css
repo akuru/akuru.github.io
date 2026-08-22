@@ -1,0 +1,72 @@
+/* Akuru Collective — minimal editorial style. Abhaya Libre throughout. */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+:root{
+  --ink:#111111;
+  --muted:#6b6b6b;
+  --line:#e6e6e6;
+  --bg:#ffffff;
+  --accent:#aa0101;
+  --maxw:1080px;
+}
+
+*{box-sizing:border-box;}
+html{font-size:18px;-webkit-text-size-adjust:100%;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Abhaya Libre', Georgia, serif;
+  font-weight:400;
+  line-height:1.6;
+}
+img{max-width:100%;height:auto;display:block;}
+a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line);}
+a:hover{border-color:var(--ink);}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 1.5rem;}
+
+/* Header */
+.site-header{border-bottom:1px solid var(--line);}
+.site-header .wrap{display:flex;align-items:baseline;justify-content:space-between;padding-top:1.4rem;padding-bottom:1.4rem;gap:1rem;flex-wrap:wrap;}
+.brand{font-weight:700;font-size:1.35rem;letter-spacing:.01em;border:none;}
+.nav a{margin-left:1.4rem;border:none;color:var(--muted);font-weight:500;}
+.nav a:hover,.nav a.active{color:var(--ink);}
+.nav .lang{margin-left:1.4rem;color:var(--line);font-size:.85rem;}
+
+/* Hero / homepage */
+.hero{padding:5rem 0 3rem;border-bottom:1px solid var(--line);}
+.hero h1{font-size:clamp(2.4rem,6vw,4.2rem);font-weight:800;line-height:1.05;margin:0 0 1.2rem;letter-spacing:-.01em;}
+.hero .intro{font-size:1.25rem;max-width:42rem;color:var(--ink);}
+.manifesto{padding:3.5rem 0;border-bottom:1px solid var(--line);}
+.manifesto .label{text-transform:uppercase;letter-spacing:.18em;font-size:.75rem;color:var(--muted);font-weight:600;margin-bottom:1rem;}
+.manifesto blockquote{margin:0;font-size:clamp(1.6rem,4vw,2.6rem);font-weight:500;line-height:1.3;max-width:50rem;}
+
+/* Section heading */
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin:3.5rem 0 1.5rem;}
+.section-head h2{font-size:1.5rem;font-weight:700;margin:0;}
+
+/* Projects grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:2rem;padding-bottom:5rem;}
+.card{border:none;color:inherit;display:block;}
+.card .thumb{aspect-ratio:4/3;overflow:hidden;background:#f3f3f3;border:1px solid var(--line);}
+.card .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease;}
+.card:hover .thumb img{transform:scale(1.04);}
+.card .thumb.empty{display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:600;font-size:2rem;}
+.card h3{font-size:1.15rem;font-weight:600;margin:.8rem 0 .2rem;}
+.card .meta{color:var(--muted);font-size:.85rem;}
+
+/* Project page */
+.project{padding:3.5rem 0 4rem;}
+.project .back{color:var(--muted);font-size:.85rem;text-transform:uppercase;letter-spacing:.12em;border:none;font-weight:600;}
+.project h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;line-height:1.08;margin:1rem 0 .4rem;}
+.project .meta{color:var(--muted);margin-bottom:2rem;}
+.project .body{max-width:42rem;font-size:1.12rem;}
+.project .body p{margin:0 0 1.2rem;}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem;margin:2.5rem 0;}
+.gallery img{width:100%;border:1px solid var(--line);background:#f3f3f3;}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--line);padding:2.5rem 0;color:var(--muted);font-size:.9rem;}
+.site-footer a{border:none;color:var(--muted);}
+.site-footer a:hover{color:var(--ink);}
